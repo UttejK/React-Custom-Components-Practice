@@ -1,0 +1,42 @@
+.sidebar {
+  height: 100vh;
+  background-color: #f8f9fa;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid #ddd;
+}
+
+.sidebar-content {
+  flex-grow: 1;
+  padding: 10px;
+  /* text-align: center; */ /* Center content */
+}
+
+.toggle-btn {
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.resizer {
+  width: 5px;
+  height: 100%;
+  background-color: #ddd;
+  cursor: ew-resize;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.full-logo {
+  width: 100%;
+  height: auto;
+  transition: width 0.3s ease-in-out;
+}
+
+.collapsed-logo {
+  width: 30px;
+  height: auto;
+  margin: 0 auto;
+  transition: width 0.3s ease-in-out;
+}
