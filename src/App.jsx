@@ -1,14 +1,14 @@
-// Bootstrap styles
-import "bootstrap/dist/css/bootstrap.min.css";
-
 // Custom Styling
 import "./App.css";
-import Sidebar from "./Components/sidebar/Sidebar";
+import Framer from "./Components/framer/Framer";
+// import Sidebar from "./Components/sidebar/Sidebar";
 
 function App() {
   return (
     <>
-      <Sidebar />
+      {/* Resizeable Sidebar component */}
+      {/* <Sidebar /> */}
+      <Framer />
     </>
   );
 }
