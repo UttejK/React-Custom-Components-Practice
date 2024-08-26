@@ -1,6 +1,4 @@
 // Import tailwind css
-import { useEffect } from "react";
-import "./Tailwind.css";
 import {
   motion,
   useAnimation,
@@ -8,7 +6,8 @@ import {
   useScroll,
   useTransform,
 } from "framer-motion";
-import { useRef } from "react";
+import { useEffect, useRef } from "react";
+import "./Tailwind.css";
 
 const gridContainerVariants = {
   hidden: { opacity: 0 },

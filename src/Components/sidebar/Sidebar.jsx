@@ -67,7 +67,7 @@ const Sidebar = () => {
     <div
       className="sidebar"
       style={{
-        width: isCollapsed ? "defaultMinWidthpx" : `${width}px`, // Set the width based on whether the sidebar is collapsed or not
+        width: isCollapsed ? `${defaultMinWidth}px` : `${width}px`, // Set the width based on whether the sidebar is collapsed or not
         transition: "width 0.3s", // Smooth transition when width changes
       }}
     >
