@@ -65,7 +65,7 @@ export default function Framer() {
   }, [isInView]);
 
   return (
-    <div className="flex flex-col gap-10 overflow-x-hidden">
+    <div className="flex flex-col gap-10 overflow-x-hidden body">
       <motion.section
         variants={gridContainerVariants}
         initial="hidden"
